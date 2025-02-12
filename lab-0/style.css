@@ -3,12 +3,19 @@ body {
     margin: 0 auto;
   }
   
-  .sender-column {
-    text-align: right;
+  .letter-body {
+    p, li, dd, dt, address {
+      line-height: 1.5;
+    }
+  }
+
+  .date {
+    margin-top: 2.5em;
   }
   
   h1 {
     font-size: 1.5em;
+    margin: 1em 0;
   }
   
   h2 {
@@ -16,10 +23,17 @@ body {
   }
   
   p,ul,ol,dl,address {
-    font-size: 1.1em;
+    font-size: 1em;
   }
-  
-  p, li, dd, dt, address {
-    line-height: 1.5;
+
+  .sender-column {
+    text-align: right;
+    line-height: 0.5;
+  }
+
+  .receiver-column {
+    text-align: left;
+    font-style: italic;
+    line-height: 0.5;
   }
   
